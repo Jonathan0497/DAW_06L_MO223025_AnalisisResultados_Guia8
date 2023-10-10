@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <form id="myForm">
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="fullName">
+            </div>
+            <div class="mb-3">
+                <label for="country" class="form-label">País</label>
+                <select class="form-select" id="country">
+                    <option value="Belize">Belice</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Panama">Panamá</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="bio" class="form-label">Biografía</label>
+                <textarea class="form-control" id="bio" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" id="submitBtn">Enviar</button>
+        </form>
+    </div>
+
+    <!-- LocalStorage -->
+    <!--<script src="local.js"></script> -->
+    <!-- SessionStorage -->
+     <script src="session.js"></script> 
+</body>
+</html>
